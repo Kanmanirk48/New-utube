@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin: 0%;
+                margin-top: 100px;
+                margin-left:75px ; 
+                margin-right: 50px;
+            }
+            .p{
+                margin-top: 0px; 
+                line-height: 50px;
+                margin-bottom: 0;
+            }
+            @media (max-width:750px) {
+                .all-vid{
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            
+            @media(min-width:1000px){
+            .all-vid{
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            
+            }
+            }
+            @media(min-width:751px) and (max-width:999px){
+                .all-vid{
+                    grid-template-columns:1fr 1fr 1fr ;
+                }
+            }
+            .image{
+                width: 100%;
+               
+              
+            }
+            .box1{
+                position: relative;
+            }
+            .boxx1{
+                position: relative;
+
+            }
+            .imagetwo{
+                width: 100%;;
+                
+                
+            
+            }
+            .info-pro{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+                
+                
+            }
+            .boxx2{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+
+             
+
+            }
+            .author1{
+                 font-size: 12px;
+                color:rgb(83, 74, 74);
+                margin-top: 0;
+
+            }
+            .author2{
+                font-size: 12px;
+                color:rgb(83, 74, 74);}
+
+            .viw1{
+                font-size: 12px;
+                color:rgb(83, 74, 74);
+
+            }
+            .viw2{
+                font-size: 12px;
+                color:rgb(83, 74, 74);}
+
+            
+            
+             .preview{
+                width: 300px;
+                font-family: Roboto;
+                transition: transform 0.3s;
+                
+               
+                
+            }
+            .preview:hover{
+                transform: scale(1.05);
+            }
+            .prev2{
+                width: 300px;
+                font-family: Roboto;
+               
+                vertical-align: top;
+                transition: transform 0.3s;
+
+               
+            
+                
+            }
+            .prev2:hover{
+                transform: scale(1.05);}
+            .prf{
+                width: 30px;
+                border-radius:50px ;
+
+            }
+            .vidtitle{
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+
+
+            .vid-title{
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-weight: bold;
+                font-size: 14px;
+            }
+            
+            .channel-img{
+                width: 30px;
+                border-radius:50px ;
+            }
+            .profile1{
+                display:inline-block;
+                width:50px ;
+                vertical-align: top;
+            
+            }
+            .titl{
+            width: 240px;
+            display: inline-block;}
+
+            .all-vid{
+                 display: grid;
+                 
+                 
+                 column-gap: 16px;
+                 grid-row: 40 ;
+                 margin-top:20px ;
+                 margin-left: 0;
+                
+
+
+            }
+            
+        </style>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="sidebar.css">
+        <link rel="stylesheet" href="videotime.css">
+
+        <body> 
+            <div class="header">
+                <div class="left-sec">
+                    <img class="lef" src="lefti.webp">
+                    <img class="utube" src="youtubelogo.svg">
+
+                 
+                </div>
+                <div class="middle-sec">
+                    <input class=" bar" text="type"  placeholder="search">
+                    <div class="hower-search">
+                        <button class="search-button"><img class="search" src="search.webp"></button>
+                        <div class="howere">Search</div></div>
+                    <div class="hower-search">
+                        <button class="mic-button"><img class="mic" src="micc.png"></button>
+                        <div class="howere">search with your voice</div> </div>
+                </div>
+                <div class="right-sec">
+                    <div class="hower-search"><img class="upload" src="upload.png"> <div class="howere">upload</div> </div>
+                    
+                    <div class="b-not">
+                         <img class="bell" src="bell.png">
+                        <div class="bell-not">4</div>
+                        <div class="howere">notification</div>
+                        </div>
+                   
+                    <img class="channel-icon" src="channel.jpg">
+                </div>
+            </div>
+            <div class="sidebar">
+               
+               <div class="home"> 
+                    <img class="homee" src="homee.png">
+                    <div>home</div></div>
+                <div class="home"> 
+                    <img class="hom" src="short.png">
+                    <div>Shorts</div>
+                </div>
+                <div class="home"> 
+                    <img class="hom" src="sub.webp">
+                    <div>Subscription</div>
+                </div>
+                <div class="home"> 
+                    <img class="hom" src="direction.png">
+                    <div>Explore</div>
+                </div>
+            </div>
+           
+                <div class="all-vid"> 
+                    <div class="preview">
+                        <div class="box1">
+                            <img class="image" src="https://i.ytimg.com/vi/dFdJZJoObMI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVGZ701cr9fvdkZMypssmKgPK_tA">
+            
+                            <div class="time1">4:06</div> 
+                        </div>
+                    
+                        <div class="info-pro">
+                            <div class="profile1">
+                                
+                                <img class="channel-img" src="https://yt3.ggpht.com/ytc/AIdro_lEvU20_D1cO9jWZr3icpabkmjhvqVrWJZEYnrhWqdgjZA=s68-c-k-c0x00ffffff-no-rj"> </div>
+                                <div class="titl">
+                                        <p class="vid-title">francis & mary II the night we met [+4x16]
+                                        </p> 
+                                        <p class="author1">laura</p>
+                                        <p class="viw1"> 64K views . 5 years ago</p></div>
+                            </div>
+                            
+        
+                            
+        
+                        
+                    </div>
+                
+                    <div class="prev2">
+        
+                        <div class="boxx1"><img class="imagetwo" src="hq720.webp"><div class="time1">4:06</div> </div>
+                        <div class="boxx2">
+                        <div>
+                            <img class=" prf" src="diet.jpg">
+                        </div>
+                        <div><p class="vidtitle"> Addison Rae - Diet Pepsi (Official Video) </p>
+                            <p class="author2">Addison Rae </p>
+                            <p class="viw2"> 8.6M views . 2 months ago</p></div>
+                        </div>
+                        
+                        
+                        </div>
+                        
+                            
+                    
+                    
+                    
+                    
+                    <div class="preview">
+                        <div class="box1">
+                            <img class="image" src="https://i.ytimg.com/vi/jmzAf54Re8A/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDj4Btznemq2kgHT0Tm1ntk3-Uyng">
+                            <div class="time1">4:06</div>
+                        </div>
+                    
+                            <div class="info-pro">
+                                <div class="profile1">
+                                    <img class="channel-img" src="ilu.jpg"> </div>
+                                <div class="titl">
+                                        <p class="vid-title">Gracie Abrams - I Love You, I'm Sorry (Live) | Vevo Extended Play
+                                        </p> 
+                                        <p class="author1">Gracie Abrams</p>
+                                        <p class="viw1"> 4.5M views . 4 weeks ago</p></div>
+                            </div>
+                            
+        
+                            
+        
+                        
+                    </div>
+                
+                    <div class="prev2">
+        
+                        <div class="boxx1">
+                            
+                            <img class="imagetwo" src="https://i.ytimg.com/vi/nAWUdDveRYw/hq720.jpg?sqp=-…RhyIEUoLzAP&rs=AOn4CLDcnpBbQ_ans4bsS6U7-rHrFbGjYA">
+                            <div class="time1">4:06</div>
+                        </div>
+                        <div class="boxx2">
+                        <div>
+                            <img class=" prf" src="end.jpg">
+                        </div>
+                        <div><p class="vidtitle"> Djo - End of Beginning </p>
+                            <p class="author2">phantasm </p>
+                            <p class="viw2"> 1.4M views . 8 months ago</p></div>
+                        </div>
+                        
+                        
+                        </div>
+                        <div class="preview">
+                            <div class="box1">
+                                <img class="image" src="https://i.ytimg.com/vi/STO4-8vkG0U/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBjFcZEnrE1sd7trNK6r_foE-mD3Q">
+                                <div class="time1">4:06</div>
+                            </div>
+                        
+                        <div class="info-pro">
+                            <div class="profile1">
+                                 <img class="channel-img" src="sel.jpg"> </div>
+                         <div class="titl">
+                                 <p class="vid-title">Selena Gomez - Fetish ft. Gucci Mane (Official Music Video) </p>
+                                 <p class="author1">Selena Gomez</p>
+                                 <p class="viw1"> 234M views . 7 years ago</p></div>
+                               
+                                            
+                                            
+                                          
+                                </div>
+                                
+            
+                                
+            
+                            
+                        </div>
+                    
+                        <div class="prev2">
+            
+                            <div class="boxx1">
+                                <img class="imagetwo" src="https://i.ytimg.com/vi/F4ELqraXx-U/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLAzim8cowWk-9f13nf3ClhToQeeIA">
+                                <div class="time1">4:06</div>
+                            </div>
+                            <div class="boxx2">
+                            <div>
+                                <img class=" prf" src="lana.jpg">
+                            </div>
+                            <div><p class="vidtitle"> Lana Del Rey - White Mustang (Official Music Video) </p>
+                                <p class="author2">Lana Del Rey </p>
+                                <p class="viw2"> 53M views. 7 years ago</p></div>
+                            </div>
+                            
+                            
+                            </div>
+                            
+                                
+                        
+                        
+                        
+                        
+                            
+                    
+                    
+                    </div>
+                        
+                    
+                    
+                        
+                </div>
+
+                
+
+        </body>
+    </head>
+</html>

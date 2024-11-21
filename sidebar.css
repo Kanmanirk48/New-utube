@@ -1,0 +1,33 @@
+.sidebar{
+   position: fixed;
+   top:55px;
+   background-color:  rgb(252, 245, 245);
+   width: ;
+   left: 0;
+   bottom: 0;
+   width: 60px;
+} 
+.home{
+   height: 74px;
+   background-color:  rgb(252, 245, 245);
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+
+}
+.home img{
+   height: 24px;
+   margin-bottom: 4px;
+
+}
+.home div{
+    font-size: 10px;
+
+}
+.homee{
+   
+}
+

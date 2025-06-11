@@ -23,7 +23,7 @@ This is a simple YouTube webpage clone built using HTML and CSS. It includes a s
 
 ## 🖼️ Screenshot
 
-![YouTube Clone Preview](screenshot.png)
+![YouTube Clone Preview](Screenshot.png)
 
 ---
 

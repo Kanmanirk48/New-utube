@@ -1,3 +1,4 @@
+![Screenshot 2025-06-12 002326](https://github.com/user-attachments/assets/1b600aab-6182-4a19-938f-302a1641e8eb)
 # 🎥 YouTube Clone - Frontend Project
 
 This is a simple YouTube webpage clone built using HTML and CSS. It includes a sidebar, video thumbnails, and responsive layout — designed to mimic the look and feel of YouTube's interface.
